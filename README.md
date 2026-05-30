@@ -5,7 +5,7 @@ A simple backend API that accepts a file upload and returns basic metadata about
 Its main purpose is to demonstrate how to handle `multipart/form-data` requests in Node.js using Express and Multer, and how to extract file information such as the original file name, MIME type, and file size in bytes.
 
 ## Live Demo
-
+https://filemetadata-api-eyep.onrender.com
 
 > Note: App may take ~30 seconds to load after inactivity because it is hosted on Render's free trial/free tier.
 
