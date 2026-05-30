@@ -7,7 +7,7 @@ let bodyParser = require("body-parser");
 require('dotenv').config()
 
 var app = express();
-app.use(bodyParser.urlencoded({extended: false}));
+//app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(cors());
 app.use('/public', express.static(process.cwd() + '/public'));
